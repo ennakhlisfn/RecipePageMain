@@ -54,7 +54,7 @@ body {
 p,
 li {
   font-family: outfit-thin;
-  font-size: x-small;
+  font-weight: 400;
   margin-top: 10px;
   /* text-indent: 10px; */
 }
@@ -76,11 +76,7 @@ div > ul > li::marker {
   font-weight: bold;
 }
 
-p {
-  word-spacing: -1px;
-}
-
-h4 {
+h2 {
   margin: 0;
   color: #823800;
 }
@@ -88,7 +84,7 @@ h4 {
 .contener {
   width: 50vw;
   background-color: rgb(244, 244, 244);
-  margin-top: 10vh;
+  margin-top: 7vh;
   padding: 25px;
   margin-bottom: 100px;
 }
@@ -108,12 +104,12 @@ h4 {
 }
 
 .preparation {
-  padding: 20px;
-  background-color: rgb(246 239 247);
+  padding: 10px 22px;
+  background-color: rgb(235 220 237);
   margin-bottom: 20px;
 }
 
-.preparation > h5 {
+.preparation > h3 {
   color: #790029;
 }
 
@@ -121,8 +117,9 @@ h4 {
   color: #790029;
 }
 
-li > span {
-  font-weight: bold;
+span {
+  font-family: outfit-bold;
+  color: #4d4d4d;
 }
 
 .instructions > ul > li {
